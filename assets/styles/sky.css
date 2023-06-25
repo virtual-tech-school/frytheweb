@@ -1,0 +1,70 @@
+/* As sky is the same for everybody, This CSS is same for all Pages */
+
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--dark-theme-green: #48d6b5;
+	--dark-theme-blue: #101727;
+
+	--light-theme-light-blue: #43c3d8;
+	--light-theme-dark-blue: #1e6c97;
+	--light-theme-black: #323131;
+
+	--logo-font-family: 'Teko', sans-serif;
+}
+
+.basic_flexbox {
+	display: flex;
+}
+
+.general_links{
+    color: var(--dark-theme-green);
+    
+}
+.general_links:hover{
+    text-shadow: 0px 0px 15px var(--dark-theme-green);
+
+}
+
+
+
+body {
+	height: 100vh;
+	background-color: var(--dark-theme-blue);
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+.frontPageDiv {
+	font-family: var(--logo-font-family);
+
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+
+	flex-direction: column;
+}
+
+.frontPageDiv h1 {
+	font-size: 5rem;
+	color: var(--dark-theme-green);
+	font-weight: 900;
+	text-shadow: 0px 0px 15px var(--dark-theme-green);
+}
+.frontPageDiv h3 {
+    font-weight: 700;
+    color: var(--dark-theme-green);
+}
