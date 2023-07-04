@@ -20,4 +20,5 @@ How can it help you with your journey in tech (basically career)?
 
 
 ## Ideas
-- Make Tweets Section  
+- Make Tweets Section
+- Make Speaker section  
