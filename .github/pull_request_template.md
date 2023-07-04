@@ -14,18 +14,6 @@ Please delete options that are not relevant.
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
 
-
-### New Feature Submission:
-
-- [ ] Does your submission pass the tests? 
-- [ ] Have you linted your code locally prior to submission?
-
-### Changes To Core Features:
-
-- [ ] Have you added an explanation of what your changes do and why you'd like us to include them?
-- [ ] Have you written new tests for your core changes, as applicable?
-- [ ] Have you successfully ran tests with your changes locally?
-
 ### **After** these steps, you're ready to open a pull request.
 
     a. Give a descriptive title to your PR.
